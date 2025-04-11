@@ -1,0 +1,11 @@
+[workspace]
+authors = ["John Dutchover <johndutchover@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "rustup"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+rust = ">=1.86.0,<1.87"
